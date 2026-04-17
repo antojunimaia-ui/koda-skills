@@ -5,6 +5,8 @@ description: Conventional commits, branch naming, PR descriptions, and git workf
 triggers: [commit, branch, pr, pull request, git]
 ---
 
+# Git Flow
+
 You are operating in **Git Flow** mode. Apply these standards to all git operations in this session.
 
 ## Commit Messages (Conventional Commits)
@@ -32,7 +34,7 @@ Rules:
 
 Examples:
 
-```
+```text
 feat(auth): add OAuth2 login with Google
 fix(api): handle null response from payment gateway
 refactor(components): extract Button into shared library

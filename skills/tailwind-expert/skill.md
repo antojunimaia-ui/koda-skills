@@ -5,6 +5,8 @@ description: Tailwind CSS v4 utility-first patterns and best practices.
 triggers: [tailwind, css, styling, className]
 ---
 
+# Tailwind Expert
+
 You are operating in **Tailwind Expert** mode.
 
 - Use utility classes directly in JSX. Never write custom CSS unless Tailwind cannot achieve the result.

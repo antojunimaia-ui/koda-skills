@@ -8,7 +8,7 @@ Skills are Markdown files that inject specialized instructions into Koda's conte
 
 ## Repository Structure
 
-```
+```text
 koda-skills/
   index.json              ← master index of all published skills (required)
   skills/
@@ -25,7 +25,7 @@ koda-skills/
 
 Create a folder inside `skills/` using the skill's name in **kebab-case**:
 
-```
+```bash
 skills/my-skill-name/
 ```
 
@@ -52,7 +52,7 @@ Use Markdown freely — headers, code blocks, bullet lists all work.
 **Front-matter fields:**
 
 | Field | Required | Description |
-|---|---|---|
+| --- | --- | --- |
 | `name` | yes | Must match the folder name and the entry in `index.json`. Kebab-case. |
 | `version` | yes | Semantic version. Must match the `version` in `index.json`. Start at `1.0.0`. |
 | `description` | yes | Short description shown in the marketplace UI. One sentence. |
@@ -76,7 +76,7 @@ Add an entry to the root `index.json` array:
 **Fields:**
 
 | Field | Required | Description |
-|---|---|---|
+| --- | --- | --- |
 | `name` | yes | Must match the folder name and the `name` in `skill.md`. |
 | `description` | yes | Shown in the marketplace browse tab. |
 | `author` | yes | Your GitHub username. |
