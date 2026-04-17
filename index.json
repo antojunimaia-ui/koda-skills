@@ -9,9 +9,9 @@
   },
   {
     "name": "tailwind-expert",
-    "description": "Tailwind CSS v4 utility-first patterns and best practices.",
+    "description": "Tailwind CSS v4 utility-first patterns, modern configuration, and high-performance styling.",
     "author": "antojunimaia-ui",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "tags": ["tailwind", "css", "frontend"],
     "triggers": ["tailwind", "css", "styling", "className"]
   },
