@@ -1,5 +1,6 @@
 ---
 name: react-expert
+version: 1.0.0
 description: Best practices for React 19 with hooks, performance patterns, and modern component architecture.
 triggers: [react, component, hook, jsx, tsx]
 ---

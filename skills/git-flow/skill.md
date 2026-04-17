@@ -1,5 +1,6 @@
 ---
 name: git-flow
+version: 1.0.0
 description: Conventional commits, branch naming, PR descriptions, and git workflow automation.
 triggers: [commit, branch, pr, pull request, git]
 ---

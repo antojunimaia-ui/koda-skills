@@ -38,6 +38,7 @@ This is the file Koda downloads and injects into the agent's context. It must st
 ```markdown
 ---
 name: my-skill-name
+version: 1.0.0
 description: One sentence describing what this skill does.
 triggers: [keyword1, keyword2, keyword3]
 ---
@@ -53,6 +54,7 @@ Use Markdown freely — headers, code blocks, bullet lists all work.
 | Field | Required | Description |
 |---|---|---|
 | `name` | yes | Must match the folder name and the entry in `index.json`. Kebab-case. |
+| `version` | yes | Semantic version. Must match the `version` in `index.json`. Start at `1.0.0`. |
 | `description` | yes | Short description shown in the marketplace UI. One sentence. |
 | `triggers` | yes | Array of keywords. When the user's message contains any of these words, Koda may auto-load the skill. |
 
@@ -110,6 +112,7 @@ A complete, minimal skill:
 ```markdown
 ---
 name: tailwind-expert
+version: 1.0.0
 description: Tailwind CSS v4 utility-first patterns and best practices.
 triggers: [tailwind, css, styling, className]
 ---

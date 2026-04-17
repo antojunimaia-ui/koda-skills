@@ -1,5 +1,6 @@
 ---
 name: tailwind-expert
+version: 1.0.0
 description: Tailwind CSS v4 utility-first patterns and best practices.
 triggers: [tailwind, css, styling, className]
 ---
