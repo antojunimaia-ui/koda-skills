@@ -14,5 +14,13 @@
     "version": "1.0.0",
     "tags": ["tailwind", "css", "frontend"],
     "triggers": ["tailwind", "css", "styling", "className"]
+  },
+  {
+    "name": "react-expert",
+    "description": "Best practices for React 19 with hooks, performance patterns, and modern component architecture.",
+    "author": "antojunimaia-ui",
+    "version": "1.0.0",
+    "tags": ["react", "frontend", "hooks", "typescript"],
+    "triggers": ["react", "component", "hook", "jsx", "tsx"]
   }
 ]
