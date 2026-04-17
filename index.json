@@ -1,1 +1,18 @@
-
+[
+  {
+    "name": "git-flow",
+    "description": "Conventional commits, branch naming, PR descriptions, and git workflow automation.",
+    "author": "antojunimaia-ui",
+    "version": "1.0.0",
+    "tags": ["git", "workflow", "automation", "commits"],
+    "triggers": ["commit", "branch", "pr", "pull request", "git"]
+  },
+  {
+    "name": "tailwind-expert",
+    "description": "Tailwind CSS v4 utility-first patterns and best practices.",
+    "author": "antojunimaia-ui",
+    "version": "1.0.0",
+    "tags": ["tailwind", "css", "frontend"],
+    "triggers": ["tailwind", "css", "styling", "className"]
+  }
+]
