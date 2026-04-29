@@ -22,5 +22,21 @@
     "version": "1.1.0",
     "tags": ["react", "frontend", "hooks", "typescript"],
     "triggers": ["react", "component", "hook", "jsx", "tsx"]
+  },
+  {
+    "name": "documentation-architect",
+    "description": "Professional documentation standards for READMEs, JSDoc, ADRs, and technical diagrams.",
+    "author": "antojunimaia-ui",
+    "version": "1.0.0",
+    "tags": ["documentation", "docs", "mermaid", "jsdoc"],
+    "triggers": ["docs", "documentation", "readme", "jsdoc", "mermaid", "comment"]
+  },
+  {
+    "name": "security-guard",
+    "description": "Security-first coding practices, vulnerability prevention, and secure architecture patterns.",
+    "author": "antojunimaia-ui",
+    "version": "1.0.0",
+    "tags": ["security", "auth", "validation", "privacy"],
+    "triggers": ["security", "password", "auth", "encryption", "validation", "vuln"]
   }
 ]
