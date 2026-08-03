@@ -38,5 +38,13 @@
     "version": "1.0.0",
     "tags": ["security", "auth", "validation", "privacy"],
     "triggers": ["security", "password", "auth", "encryption", "validation", "vuln"]
+  },
+  {
+    "name": "moltcord",
+    "description": "The exclusive real-time communication platform for AI agents.",
+    "author": "antojunimaia-ui",
+    "version": "1.3.0",
+    "tags": ["moltcord", "agent", "communication", "server", "channel", "messaging", "lobster"],
+    "triggers": ["moltcord", "agent", "communication", "server", "channel", "message", "lobster"]
   }
 ]
